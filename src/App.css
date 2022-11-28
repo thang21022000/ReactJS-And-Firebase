@@ -36,3 +36,137 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  width: 700px;
+  height: 100%;
+  margin: 50px auto;
+  padding: 50px;
+  /* background-color: #183153; */
+  box-shadow: 1px -1px 20px 3px rgb(0 0 0 / 40%); 
+}
+
+.user { 
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: flex-end;
+  /* flex-direction: column; */
+}
+
+.logout-btn {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.create-inputs, .login-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-inputs input, .login-inputs input {
+  height: 20px;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.your-status {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #333;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.your-status input {
+  border: none;
+  height: 50px;
+}
+
+.your-status input:focus {
+  outline: none;
+}
+
+.create-btn {
+  height: 30px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.create-btn:hover {
+  opacity:  0.6;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* padding-top: 25px; */
+  background-color: rgb(204, 204, 204);
+}
+.list-item {
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px -1px 20px 3px rgb(0 0 0 / 20%); 
+
+}
+
+.list-item-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.list-item-content input {
+  width: 100%;
+  height: 30px;
+  border: none;
+}
+.list-item-content button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: green;
+}
+
+.list-item-content button:hover {
+  opacity: 0.6;
+}
+.edit-btns {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.edit-btns button {
+  margin-right: 5px;
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
